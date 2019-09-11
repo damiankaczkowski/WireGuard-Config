@@ -1,6 +1,6 @@
-## CKWC
+## CK's WireGuard COnfiguration (short: CKWC)
 
-My own WireGuard configuration. Pretty much defaults except some tweaks and changes here and there. The setups are for your Server & Client.
+My own WireGuard configuration. Pretty much defaults except some tweaks and changes here and there. The setups are for your server & client.
 
 
 ## Config
@@ -51,7 +51,7 @@ export REMOTE_PORT=51820
 
 ## Acknowledgements
 
-In case you have some problems, there are multiple "auto-configuration" scripts avbl. but you usally don't need them, it's not hard to change port, keys and hostename - or is it?!
+In case you have some problems, there are multiple "auto-configuration" scripts avbl. but you usally don't need them, it's not hard to change port, keys and hostname - or is it?!
 
 * [wireguard-mesh-configurator (github.com)](https://github.com/k4yt3x/wireguard-mesh-configurator) - WireGuard full mesh configuration generator.
 * [easy-wg-quick (github.com)](https://github.com/burghardt/easy-wg-quick) - Creates Wireguard configuration for hub and peers with ease
