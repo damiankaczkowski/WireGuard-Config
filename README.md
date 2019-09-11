@@ -1,6 +1,6 @@
-## CK's WireGuard COnfiguration (short: CKWC)
+## CK's WireGuard Configuration (short: CKWC)
 
-My own WireGuard configuration. Pretty much defaults except some tweaks and changes here and there. The setups are for your server & client.
+My own WireGuard configuration, pretty much defaults except some tweaks and changes here and there. The setups are for your server & client.
 
 
 ## Config
@@ -8,7 +8,7 @@ My own WireGuard configuration. Pretty much defaults except some tweaks and chan
 The WireGuard default config directory is located under `/etc/wireguard`. 
 
 
-## Generating keys
+## Generating your keys
 
 You can generate your public key and private key with command `wg genkey | tee prikey | wg pubkey > pubkey`.
 
