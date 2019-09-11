@@ -48,3 +48,11 @@ export REMOTE_HOSTNAME=192.168.128.1
 export REMOTE_PORT=51820
 ./client.sh
 ```
+
+## Acknowledgements
+
+In case you have some problems, there are multiple "auto-configuration" scripts avbl. but you usally don't need them, it's not hard to change port, keys and hostename - or is it?!
+
+* [wireguard-mesh-configurator (github.com)](https://github.com/k4yt3x/wireguard-mesh-configurator) - WireGuard full mesh configuration generator.
+* [easy-wg-quick (github.com)](https://github.com/burghardt/easy-wg-quick) - Creates Wireguard configuration for hub and peers with ease
+
