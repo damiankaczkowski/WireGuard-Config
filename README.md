@@ -13,9 +13,21 @@ The WireGuard default config directory is located under `/etc/wireguard`.
 You can generate your public key and private key with command `wg genkey | tee prikey | wg pubkey > pubkey`.
 
 
+## OpenWRT
+
+Make sure you added your chnroute to the list, an example looks like this:
+```
+create chnroute hash:net family inet hashsize 4096 maxelem 65536
+add chnroute 103.45.212.0/XX
+...
+..
+.
+```
+
+
 ## VPN
 
-Getting the VPN running requires that you change `Address`, `PrivateKey` & `PublicKey, `Endpoint` (IP:Port) + the `ListenPort` port is optional (Default is: 51820).
+Getting the VPN running requires that you change `Address`, `PrivateKey` & `PublicKey`, `Endpoint` (IP:Port) + the `ListenPort` port is optional (Default is: 51820).
 
 ## Prerequisites (Server-side)
 
